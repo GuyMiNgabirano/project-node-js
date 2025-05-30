@@ -33,3 +33,13 @@ request('https://jsonplaceholder.typicode.com/users', (error, response, body) =>
 fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(data => console.log(data));*/
+
+/*const parameters = {
+    access_key: '67c9b72b823267b2a6a8276a7d89a551',
+    query: 'New york',
+    units: 'b',
+}
+
+fetch('http://api.weatherstack.com/current?access_key='+parameters.access_key+'&query='+parameters.query+'&units='+parameters.units)
+    .then(response => response.json())
+    .then(data => console.log(data));*/
